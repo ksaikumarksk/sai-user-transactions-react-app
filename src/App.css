@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.open-btn {
+  height: 50px;
+  width: 120px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.btn-container {
+  margin: 25px;
+}
+.input-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.input {
+  height: 40px;
+  padding: 10px;
+  width: 20%;
+  margin: 10px;
+  margin-bottom: 20px;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+.input1 {
+  height: 19px;
+  padding: 10px;
+  width: 20%;
+  margin: 10px;
+  margin-bottom: 20px;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+.submit-btn {
+  height: 30px;
+  width: 110px;
+  background-color: aqua;
+  border: 0px;
+  border-radius: 5px;
+}
+.ul {
+  list-style-type: none;
+}
+.image-div {
+  background-color: chocolate;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 20px;
+  margin-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.details-container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 10px rgb(10, 11, 11);
+  background-color: lightblue;
+  width: 50%;
+}
+.li-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .image {
+  color: #fff;
+ 
+  font-size: 20px;
+} */
+/* .para-container {
+  padding: -5px;
+} */
+.date {
+  font-weight: 100;
+}
+.color-green {
+  padding-left: 50%;
+  color: green;
+}
+.color-red {
+  padding-left: 50%;
+  color: red;
+}
+.money-details-container {
+  display: flex;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.balance-container {
+  display: flex;
+  height: 10vh;
+  text-align: left;
+  padding: 20px;
+  width: 30%;
+  background-color: #e3fbbe;
+  border: 1px #84cc16 solid;
+  border-radius: 10px;
+  margin: 20px;
+}
+.income-container {
+  display: flex;
+  height: 10vh;
+  text-align: left;
+  padding: 20px;
+  width: 30%;
+  background-color: #cceef4;
+  border: 1px #06b6d4 solid;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.expenses-container {
+  display: flex;
+  height: 10vh;
+  text-align: left;
+  padding: 20px;
+  width: 30%;
+  background-color: #d8cbee;
+  border: 1px #7c3aed solid;
+  border-radius: 10px;
+  margin: 20px;
+}
+.md-containar {
+  margin-left: 10px;
+  color: #404748;
+}
+.details-img {
+  height: 80px;
+  width: 80px;
+}
