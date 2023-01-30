@@ -3,27 +3,29 @@
 export const TransactionItems = ( props ) =>
 {
     const { transactionDetails } = props
-    const { search, amount, type, image, date } = transactionDetails
-    console.log( { search, amount, type, image, date }, 'transactiondetails' )
+    const { amount, type, image, date, username } = transactionDetails
+
+
+
+
 
 
 
     return (
         <li className='li-container'>
-            <div className='details-container'>
-                <div className='image-div'>
-                    <p className='image'>{ image }</p>
+            <div className='transation-container'>
+                <div className='d-c'>
+                    <div className='image-div'>
+                        <img src={ image } className="image" alt='profile' />
+                    </div>
+                    <div className='para-container'>
+                        <p className='t-user'>{ username } </p>
+                        <p className="t-date">{ date }</p>
+                    </div>
                 </div>
-                <div className='para-container'>
-                    <p className='userName'>{ search }</p>
-                    <p className="date">{ date }</p>
-                </div>
-
                 <div className={ type === 'Income' ? "color-green" : "color-red" } >
-                    <p className='para'>{ amount }</p>
+                    <p className='para'>${ amount }</p>
                 </div>
-
-
             </div>
 
         </li>
